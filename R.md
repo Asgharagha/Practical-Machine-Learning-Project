@@ -1,8 +1,8 @@
 *Uploading Required Packages*
->library(caret)
-> library(rpart)
-> library(rpart.plot)
-> library(randomForest)
+library(caret)
+library(rpart)
+library(rpart.plot)
+library(randomForest)
 
 *Importing Data*
 > train <- read.csv(file.choose(), header=T, na.strings = c("NA", "#DIV/0!", ""))
